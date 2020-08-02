@@ -8,6 +8,7 @@ setup(
     python_requires='~=3.7',
     install_requires=[
         'pandas~=1.1.0',
+        'scikit-learn~=0.23.1'
     ],
     extras_require={
         'tests': [
