@@ -20,7 +20,10 @@ Code: [ex2.ipynb](ex2.ipynb)
 ## Models
 Tree-based methods; LightGBM is a boosting ensemble designed to reduce bias, whereas Random Forest is a bagging ensemble designed to reduce variance.
 
-Advantages of tree-based methods: Cheap to build and make inference (cost grows with tree depth). Non-parametric: does not assume any probability distribution type. Robust to noise and redundant features because outliers are unlikely to be the split point. Unlike linear models and neural nets, we do not need to perform standardisation or attempt to map the features to a normal distribution.
+Advantages of tree-based methods:
+- Cheap to build and make inference (cost grows with tree depth).
+- Non-parametric: does not assume any probability distribution type.
+- Robust to noise and outliers because outliers are unlikely to be the split point. Unlike linear models and neural nets, we do not need to perform standardisation or attempt to map the features to a normal distribution.
 
 Tune the following hyperparameters to avoid overfitting: minimum number of examples in leaf, number of features to consider for splitting, number of examples available to grow each tree. 
 
